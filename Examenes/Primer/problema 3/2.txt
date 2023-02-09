@@ -1,0 +1,26 @@
+(a) El dual del problema es el siguiente: 
+Minimizar 19w1 + 57w2
+S t
+w1+2w2 >= 10
+w1+4w2 >= 24
+2w1+3w2 >= 20
+3w1+2w2 >= 20
+5w1+w2 >= 25
+w1, w2 >= 0
+ 
+
+  
+(b) La solución óptima para dual es: 
+w1 = 4
+w2 = 5
+Valor objetivo = 19*4+57*5 = 361
+ 
+La solución óptima de primal es igual al precio sombra de dual. Entonces la solución óptima de primal es: 
+x1 = 0
+x2 = 14
+x3 = 0
+x4 = 0
+x5 = 1
+Valor objetivo = 10*0+24*14+20*0+20*0+25*1 = 361
+El valor objetivo tanto del primario como del dual es siempre el mismo. 
+
